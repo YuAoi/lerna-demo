@@ -1,11 +1,11 @@
 {
-  "name": "xh-utils",
+  "name": "shares",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Liu Zibo <liuzibo@100tal.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "main.js",
+  "main": "lib/shares.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -20,6 +20,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "lodash": "^4.17.21"
   }
 }
